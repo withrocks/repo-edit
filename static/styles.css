@@ -7,7 +7,6 @@ body {
   padding-top: 50px;
 }
 
-
 /*
  * Global add-ons
  */
@@ -73,7 +72,14 @@ body {
 
 .main {
   padding: 20px;
+  height: 100%;
+  min-height: 100%;
 }
+
+#editor {
+  height: 500px; /* TODO: 100% */
+}
+
 @media (min-width: 768px) {
   .main {
     padding-right: 40px;
